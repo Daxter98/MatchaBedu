@@ -19,6 +19,10 @@ img {
   vertical-align: middle;
 }
 
+.main {
+  margin-top: 12.25rem;
+}
+
 .main__title {
   font-size: 3.75rem;
   font-family: 'Alegreya', serif;
@@ -129,6 +133,9 @@ img {
 .fixed-header {
   position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fffbf7;
 }
 
 .logo {
