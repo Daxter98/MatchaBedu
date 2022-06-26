@@ -5,107 +5,136 @@ html {
 *,
 *::before,
 *::after {
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 
 body {
+  text-align: center;
   background-color: #fffbf7;
 }
 
-h1 {
+img {
+  vertical-align: middle;
+}
+
+.main__title {
+  font-size: 3.75rem;
+  font-family: 'Alegreya', serif;
   color: #025157;
+  font-weight: 900;
 }
 
-h4 {
-  color: #46484c;
-}
-
-p {
-  color: #8b8b8bcc;
-  font-family: verdana;
+.main__description {
+  font-family: 'Slabo 27px', serif;
   font-size: 20px;
-  font-weight: 500;
+  color: #212529;
+  margin: 0 0 1rem;
 }
 
-button {
-  color: #fff;
+.main__subscribe {
+  display: flex;
+  justify-content: center;
+}
+
+.main__email_field {
+  padding: 1rem 1.25rem;
+  border: 2px solid #cecece;
+  font-size: 1rem;
+  color: #a4a4a4;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-right: 0;
+}
+
+.main__subscribe button {
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  border-left: 0;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: white;
+  background-color: #025157;
+}
+.main__call_to_action {
+  color: #a5a5a5;
+  margin-top: 2em;
+  font-size: 1.2rem;
+}
+
+.main__statistics {
+  display: flex;
+  justify-content: center;
+  /* position: relative;
+  left: 50%;
+  transform: translate(-50%, 0%); */
+}
+
+.main__statistics img {
+  width: 70%;
+}
+
+.advertising {
+  display: flex;
+  justify-content: center;
+  gap: 3em;
+  margin: 5rem 0;
+}
+
+.advertising__video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+}
+
+.advertising__video img {
+  width: 20%;
+}
+
+.advertising__description {
+  text-align: left;
+  width: 30%;
+}
+
+.advertising__description h3 {
+    font-family: 'Alegreya', serif;
+    font-weight: 900;
+    font-size: 2.5em;
+    color: #025157;
+}
+
+.advertising__description p {
+  font-family: 'Slabo 27px', serif;
+  font-size: 20px;
+  margin-bottom: 2rem;
+}
+
+.advertising__suscribe {
+  display: flex;
+  justify-content: left;
+}
+
+.advertising__suscribe button {
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  border-left: 0;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: white;
   background-color: #025157;
 }
 
-picture {
-  margin: 30px 0 10px 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-picture.image_intro img {
-  width: 100%;
-  max-width: 980px;
-}
-
-.header {
-  margin: 40px 20px 0;
-  font-size: 0;
-  font-family: sans-serif;
-  height: 45px;
+.fixed-header {
   position: fixed;
   top: 0;
-  display: flex;
-}
-
-.header > * {
-  display: inline-block;
-  font-size: 16px;
-  vertical-align: middle;
-  height: 100%;
-  line-height: 45px;
 }
 
 .logo {
-  width: 15%;
+  width: 3%;
 }
 
-.logo > img {
-  width: 15%;
-}
-
-.navbar {
-  width: 70%;
-  text-align: center;
-  color: #025157;
-  font-weight: 500;
-}
-
-.menu-item {
-  display: inline;
-  margin: 0 25px;
-}
-
-.actions {
-  width: 15%;
-  text-align: right;
-  font-size: 14px;
-  font-weight: 600;
-}
-
-.actions > * {
-  margin: 0 10px;
-}
-
-.actions a {
-  color: #67b54b;
-}
-
-.actions button {
-  color: white;
-  background-color: #67b54b;
-  padding: 12px 14px;
-  border: 0;
-  border-radius: 5px;
-}
-
-.main {
-  margin-top: 140px;
-  text-align: center;
+.logo > * {
+  width: 100%;
 }
