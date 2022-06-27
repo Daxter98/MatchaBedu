@@ -94,7 +94,7 @@ img {
 }
 
 .advertising__video img {
-  width: 20%;
+  width: 15%;
 }
 
 .advertising__description {
@@ -167,4 +167,51 @@ img {
   padding: 12px 14px;
   border: 0;
   border-radius: 5px;
+}
+
+.testimonials {
+  max-width: 100%;
+  background-color: #a1d686;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 2em 20%;
+  text-align: left;
+  gap: 7em;
+}
+
+.testimonials__description {
+  max-width: 50%;
+}
+
+.testimonials__description h2 {
+  font-family: 'Alegreya', serif;
+  font-weight: 900;
+  font-size: 3.35em;
+  line-height: 1.15em;
+  text-align: left;
+  color: #025157;
+}
+
+.testimonials__description p {
+  font-weight: 350;
+  line-height: normal;
+  margin-bottom: 1rem;
+  font-size: 20px;
+}
+
+.testimonials__description a {
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  border-left: 0;
+  border-radius: 10px;
+  color: white;
+  background-color: #025157;
+  margin-top: 1em;
+  font-weight: 600;
+}
+
+.testimonials__description img {
+  width: 90%;
+  margin-top: 2em;
 }
